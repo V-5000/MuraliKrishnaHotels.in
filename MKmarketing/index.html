@@ -1,64 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>MK</title>
 	<link rel="stylesheet" href="style.css">
+	<title>MK marketing and trading</title>
 </head>
 <body>
-	<div class="heading">
-		<img src="resorces/icon.png" class="logo_class">
-		<h3 class="heading_text">MK Marketing & Trading</h3>
-	</div>
-	<div class="img_class">
-		<h3>Hotal: Murali Krishna</h3>
-		<div class="slideshow-container">
-
-		  <!-- Full-width images with number and caption text -->
-		  <div class="mySlides fade">
-		    <div class="numbertext">1 / 3</div>
-		    <img src="resorces/blue_bedroom.jpeg" style="width:100%">
-		    <div class="text">Bedroom</div>
-		  </div>
-
-		  <div class="mySlides fade">
-		    <div class="numbertext">2 / 3</div>
-		    <img src="resorces/blue_hall.jpeg" style="width:100%">
-		    <div class="text">Hall</div>
-		  </div>
-
-		  <div class="mySlides fade">
-		    <div class="numbertext">3 / 3</div>
-		    <img src="resorces/blue_bathroom.jpeg" style="width:100%">
-		    <div class="text">Bathroom</div>
-		  </div>
-
-		  <!-- Next and previous buttons -->
-		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-		</div>
-		<br>
-
-	</div>
-	<table class="details">
-		<tr>
-			<td class="table_til">Name</td>
-			<td class="detail_til">Hotal Murali Krishna.</td>
-		</tr>
-		<tr>
-			<td class="table_til">location</td>
-			<td class="detail_til">Perupalam beach,Perupalam,Andra Predesh,India.</td>
-		</tr>
-		<tr>
-			<td class="table_til">price</td>
-			<td class="detail_til">₹ 1234</td>
-		</tr>
-		<tr>
-			<td class="table_til">Contact</td>
-			<td class="detail_til">1234567890, 0987654321</td>
-		</tr>
-	</table>
-	<button onclick="call_now()" id="call_now_button" class="call_now">call now</button>
 	<script src="srcipt.js"></script>
+	<div class="main_header">
+		<img src="resorces/icon.png" class="img_head">
+		<h2 class="title_head">MK Marketing and Trading</h2>
+	</div>
+	<br><br><br>
+	<div class="main_container">
+		<h2>Hotel Murali Krishna</h2>
+		<img src="resorces/blue_bedroom.jpeg" id="mainImg_id"><br>
+		<button id="img_button" onclick="scrool()">next img</button><br><br><br>
+
+		<table>
+			<tr>
+				<th>name </th>
+				<th>hotal murali krishna</th>
+			</tr>
+			<tr>
+				<th>location</th>
+				<th>perupalem beach,west godavari,andhra predesh,india</th>
+			</tr>
+			<tr>
+				<th>price</th>
+				<th>₹ 1234</th>
+			</tr>
+			<tr>
+				<th>contact</th>
+				<th>91+ 1234567890,91+ 0987654321</th>
+			</tr>
+		</table>
+		<iframe class="map_link" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d773.957033213058!2d81.604619!3d16.3404602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a48298a643f1f63%3A0xe9bc4fe42054975a!2sSagarakanya%20Beach%20Restaurant%20%2C%20Perupallem!5e1!3m2!1sen!2sin!4v1612369910406!5m2!1sen!2sin" width="300" height="260" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		<br><br>
+		<button class="tel_link_button">contact</button>
+		<br><br><br><br>
+		<h5>Testing (still in devolopment)</h5>
+	</div>
 </body>
 </html>
